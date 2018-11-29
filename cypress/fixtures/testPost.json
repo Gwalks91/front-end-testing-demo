@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Grants First Post",
+        "topic": "introPost",
+        "message": "Hello this is my first post I am glad to be here!"
+    },
+    {
+        "name": "Grants Second Post",
+        "topic": "testingPost",
+        "message": "Hello lets make sure we can have two posts!"
+    }
+]

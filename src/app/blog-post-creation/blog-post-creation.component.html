@@ -1,0 +1,62 @@
+<!-- Part of second failure fix -->
+<!-- <div>
+  Name Of Post:
+  <input type="text" [(ngModel)]="post.name"
+    data-test-selector="postNameField">
+</div>
+<div data-test-selector="postTopicField">
+  Topic Of The Post:
+  <select>
+    <option value="introPost">Intro Post</option>
+    <option value="testingPost">Test Post</option>
+    <option value="outdoorPost">Outdoor Post</option>
+  </select>
+</div>
+<div>
+  Post Message:
+  <textarea
+    data-test-selector="postMessageField"></textarea>
+</div>
+<button data-test-selector="postBtn">Post</button> -->
+
+
+<!-- After component tests  -->
+<div>
+  Name Of Post:
+  <input type="text" [(ngModel)]="post.name"
+    data-test-selector="postNameField">
+</div>
+<div data-test-selector="postTopicField">
+  Topic Of The Post:
+  <select>
+    <option value="introPost">Intro Post</option>
+    <option value="testingPost">Test Post</option>
+    <option value="outdoorPost">Outdoor Post</option>
+  </select>
+</div>
+<div>
+  Post Message:
+  <textarea
+    data-test-selector="postMessageField"></textarea>
+</div>
+<button data-test-selector="postBtn" (click)="_onPost()">Post</button> 
+
+<!-- <div>
+  Name Of Post:
+  <input type="text" [(ngModel)]="post.name" 
+    data-test-selector="postNameField">
+</div>
+<div data-test-selector="postTopicField">
+  Topic Of The Post:
+  <select [(ngModel)]="post.topic">
+    <option value="introPost">Intro Post</option>
+    <option value="testingPost">Test Post</option>
+    <option value="outdoorPost">Outdoor Post</option>
+  </select>
+</div>
+<div>
+  Post Message:
+  <textarea [(ngModel)]="post.message" 
+    data-test-selector="postMessageField"></textarea>
+</div>
+<button data-test-selector="postBtn" (click)="_onPost()">Post</button> -->
